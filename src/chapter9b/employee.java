@@ -9,7 +9,7 @@ public class employee extends person {
     getter setter
      */
      public employee(){
-         super(20);
+         super("putranto");
          System.out.println("in employee default cons");
      }
 

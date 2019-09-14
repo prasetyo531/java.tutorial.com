@@ -12,12 +12,13 @@ public class person {
 
     //same name with class
     public person(String name){
-        System.out.println("in person 2nd constructor");
+        System.out.println("in person 1nd constructor");
     }
 
     /*
       overloading methods = ketika method bisa punya banyak nama yg sama tapi berbeda paramater dalama 1 class
     */
+
     public person(int age){
         System.out.println("in umur 2nd constructor");
     }
