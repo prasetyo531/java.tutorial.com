@@ -1,0 +1,2 @@
+- all abstract method
+- implemented not extended like abstraction
