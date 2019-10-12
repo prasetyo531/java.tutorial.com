@@ -1,0 +1,15 @@
+java collection is
+- an object that holds references to other object as known data object
+- consist of interfaces, classes and methods to store and manipulate data
+- can be found in java.util package
+
+collection framework
+1. set
+- collection that dont have duplicate element
+- duplicate element will not stored
+2. list
+can contain duplicate elements, can be accesed by position
+3. queue
+ordered elements for processing
+4. map
+unordered unique value pairs, like bank transaction - unique transaction id has pairs value

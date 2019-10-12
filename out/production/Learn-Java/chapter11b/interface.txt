@@ -1,2 +1,6 @@
-- all abstract method
 - implemented not extended like abstraction
+- implemented as implements
+- once you change declare new in interface, program will broken
+- all abstract method if not using implements
+- to handle above problem , java allows you provide default implementation to new method. check product.java  as interface
+- can implement multiple interfaces
