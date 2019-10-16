@@ -1,0 +1,7 @@
+- constructor
+- public and protected member/access modifier https://www.petanikode.com/java-oop-modifier/
+- private member
+- final method
+
+overide method public bisa ke protected
+overide method private g bisa ke protected
