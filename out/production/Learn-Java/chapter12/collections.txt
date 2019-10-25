@@ -7,9 +7,12 @@ collection framework
 1. set
 - collection that dont have duplicate element
 - duplicate element will not stored
+Set buah = new HashSet();
 2. list
 can contain duplicate elements, can be accesed by position
 3. queue
 ordered elements for processing
+Queue buah = new LinkedList();
 4. map
 unordered unique value pairs, like bank transaction - unique transaction id has pairs value
+Map fruitCalories = new HashMap();
