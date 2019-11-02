@@ -10,6 +10,7 @@ collection framework
 Set buah = new HashSet();
 2. list
 can contain duplicate elements, can be accesed by position
+ArrayList<String> names = new ArrayList<String>();
 3. queue
 ordered elements for processing
 Queue buah = new LinkedList();
