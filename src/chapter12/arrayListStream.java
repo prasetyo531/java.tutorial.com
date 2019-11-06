@@ -14,6 +14,7 @@ public class arrayListStream {
 
     public static void arraylist_for(){
 
+        //<bisa class/tipe data>
         ArrayList<String> names = new ArrayList<String>();
         names.add("abigail");
         names.add("bacandra");
@@ -34,6 +35,7 @@ public class arrayListStream {
 
     public static void arrayList_streamFilter(){
 
+        //<bisa class/tipe data>
         ArrayList<String> middlename = new ArrayList<String>();
         middlename.add("chandra");
         middlename.add("destari");
@@ -49,6 +51,7 @@ public class arrayListStream {
 
     public static void smartUsageStream(){
 
+        //<bisa class/tipe data>
         ArrayList<String> skincare = new ArrayList<String>();
         skincare.add("cleanser");
         skincare.add("facewash");
@@ -68,6 +71,7 @@ public class arrayListStream {
 
     public static void usageForEach(){
 
+        //<bisa class/tipe data>
         ArrayList<String> skincare = new ArrayList<String>();
         skincare.add("cleanser");
         skincare.add("facewash");
