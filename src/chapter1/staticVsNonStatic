@@ -1,0 +1,36 @@
+1. Accessing members and methods:
+In static method,
+- the method can only access only static data members and static methods of another class or same class but
+- cannot access non-static methods and variables.
+- Also a static method can rewrite the values of any static data member.
+- static keyword akan membuat fungsi dapat dieksekusi langsung, tanpa harus membuat instansiasi objek dari class.
+In non-static method,
+- the method can access static data members and static methods as well as non-static members and method of another class or same class,
+- also can change the values of any static data member.
+
+2. calling
+In static method,
+- The memory of a static method is fixed in the ram, for this reason we don’t need the object of a class
+In non-static method,
+- the memory of non-static method is not fixed in the ram, so we need class object to call a non-static method.
+nonStaticExample n = new nonStaticExample();
+System.out.println(n.lebar);
+
+3.Binding process:
+In static method,
+- the method use compile time or early binding. For this reason we can access static method without creation a instance.
+In non-static method,
+- the method use runtime or dynamic binding. So that we cannot access a non-static method without creation a instance.
+
+4. Overriding:
+In static method, we cannot override a static method, because of early binding.
+    static void gerobak(){
+
+    }
+
+5. Memory allocation:
+In static method,
+- memory allocation happens only once, because the static keyword fixed a particular memory for that method in ram. less memory
+In non-static method,
+- here memory allocation happens when the method is invoked and the memory is allocated every time when the method is called.
+  So much memory is used here.
