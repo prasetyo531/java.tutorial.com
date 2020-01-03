@@ -1,4 +1,4 @@
-package chapter1;
+package c1AccessModifier;
 
 public class child extends parent {
 
