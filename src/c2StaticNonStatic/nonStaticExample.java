@@ -1,4 +1,4 @@
-package chapter1;
+package c2StaticNonStatic;
 
 public class nonStaticExample {
 

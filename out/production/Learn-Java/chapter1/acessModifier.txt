@@ -1,0 +1,16 @@
+1. Public
+Modifier public akan membuat member dan class bisa di akses dari mana saja.
+
+2. Protected
+Modifier protected akan membuat member dan class hanya bisa diakses dari:
+
+- Class itu sendiri;
+- Sub class atau class anak;
+- Package (class yang berada satu package dengannya).
+
+3. Private
+Modifier private akan membuat member hanya bisa diakses oleh dari dalam class itu sendiri.
+
+Perlu diingat:
+- Modifier private tidak bisa diberikan kepada class, enum, dan interface.
+- Modifier private hanya bisa diberikan kepada member class.

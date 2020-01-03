@@ -1,3 +1,6 @@
+https://www.geeksforgeeks.org/difference-between-static-and-non-static-method-in-java/
+https://www.petanikode.com/java-prosedur-dan-fungsi/
+
 1. Accessing members and methods:
 In static method,
 - the method can only access only static data members and static methods of another class or same class but
