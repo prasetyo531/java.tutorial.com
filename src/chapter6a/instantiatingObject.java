@@ -12,8 +12,8 @@ public class instantiatingObject {
 
         //Create instance of Rectangle class
         classesObject room1 = new classesObject();
-        room1.setWidth(95);
-        room1.setLength(50);
+        room1.setWidth(15);
+        room1.setLength(10);
         double areaOfRoom1 = room1.calculateArea();
 
         /*******************
