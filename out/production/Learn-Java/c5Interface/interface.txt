@@ -1,0 +1,2 @@
+Interface
+is blueprint from class, empty content that will implement to other class
