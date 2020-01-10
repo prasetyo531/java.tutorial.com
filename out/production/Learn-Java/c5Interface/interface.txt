@@ -1,2 +1,6 @@
 Interface
 is blueprint from class, empty content that will implement to other class
+
+1. create interface
+2. create class that implements interface
+3. void function with @Override annotation
