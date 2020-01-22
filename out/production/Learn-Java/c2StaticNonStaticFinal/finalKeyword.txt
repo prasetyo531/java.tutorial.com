@@ -1,0 +1,6 @@
+https://www.baeldung.com/java-initialization
+https://www.geeksforgeeks.org/final-keyword-java/
+
+final variable --> to create constant values / value cannot re-assign
+final methods --> prevent method overriding (exp = @override)
+final classes --> prevent inheritance

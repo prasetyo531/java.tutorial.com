@@ -1,4 +1,4 @@
-package c2StaticNonStatic;
+package c2StaticNonStaticFinal;
 
 public class childOverridingStaticNon extends parentOverridingStaticNon {
 
