@@ -15,6 +15,11 @@ public class staticExample {
         System.out.println("tinggi");
     }
 
+    static void lokasiGedung(){
+
+        tinggi = 1;
+    }
+
     public static void main(String[] args) {
 
         System.out.println(tinggi);

@@ -16,22 +16,22 @@ public class parent {
         parent.rencana = rencana;
     }
 
-    private static String getRencana2() {
+    protected static String getRencana2() {
 
         return rencana2;
     }
 
-    public static void setRencana2(String rencana2) {
+    protected static void setRencana2(String rencana2) {
 
         parent.rencana2 = rencana2;
     }
 
-    protected static String getRencana3() {
+    private static String getRencana3() {
 
         return rencana3;
     }
 
-    public static void setRencana3(String rencana3) {
+    private static void setRencana3(String rencana3) {
 
         parent.rencana3 = rencana3;
     }

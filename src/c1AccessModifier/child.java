@@ -4,10 +4,10 @@ public class child extends parent {
 
     public static void memberChild1(){
 
-        setRencana2("private ngga akan bisa");
+        setRencana2("protected ngga akan bisa");
         //System.out.println(getRencana2());
 
-        setRencana3("protected masih bisa");
+        setRencana3("private masih bisa");
         System.out.println(getRencana3());
     }
 
