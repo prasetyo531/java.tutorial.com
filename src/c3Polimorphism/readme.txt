@@ -1,4 +1,4 @@
-> Sub class can define their own unique behaviour, share some behaviours of their superclass
+> Polimorfisme is Sub class can define their own unique behaviour, share some behaviours of their superclass
 
 > Polimorfisme dalam OOP adalah sebuah prinsip di mana class dapat memiliki banyak “bentuk” method yang berbeda-beda meskipun namanya sama.
 - “Dalam satu class”

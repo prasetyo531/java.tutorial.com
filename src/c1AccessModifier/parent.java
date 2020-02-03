@@ -6,6 +6,8 @@ public class parent {
     private static String rencana2;
     protected static String rencana3;
 
+    protected static String wacana="ke ancol";
+
     public static String getRencana() {
 
         return rencana;

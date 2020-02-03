@@ -2,7 +2,7 @@ package c2StaticNonStaticFinal;
 
 public class finalKeyword {
 
-    static Integer tinggi=10;
+    final static Integer tinggi=10;
     String ukuran= "tinggi";
 
     /*
@@ -10,6 +10,7 @@ public class finalKeyword {
     In this way, we can define constants in Java.
      */
     static final String address = "jalan tendean kemang";
+
 
     public static void main(String[] args){
 
