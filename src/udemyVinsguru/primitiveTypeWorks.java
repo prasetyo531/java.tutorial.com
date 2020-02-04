@@ -49,7 +49,7 @@ public class primitiveTypeWorks {
 
         System.out.println(c); //will print member c in main method
 
-        System.out.println(bt);
+        System.out.println("byte::" + bt);
         System.out.println("char::" + ch);
 
 
