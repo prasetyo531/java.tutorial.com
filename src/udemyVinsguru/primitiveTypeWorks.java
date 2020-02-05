@@ -16,7 +16,7 @@ public class primitiveTypeWorks {
     boolean  true / false
      *** ***/
 
-    int c = 20;
+    int c = 10;
     static Byte bt = 127;
     static char ch = 77;
 
@@ -38,6 +38,12 @@ public class primitiveTypeWorks {
         System.out.println(c);
     }
 
+    public void definisiclass(){
+
+        int z = 13;
+        System.out.println(z);
+    }
+
     public static void main(String[] args) {
 
         primitiveTypeWorks p1 = new primitiveTypeWorks();
@@ -47,14 +53,15 @@ public class primitiveTypeWorks {
         int c = 21;
         p1.angkaPrimitiveTiga(c);
 
-        System.out.println(c); //will print member c in main method
+        System.out.println("chracter c::"+" "+c); //will print member c in main method
 
         System.out.println("byte::" + bt);
         System.out.println("char::" + ch);
 
-
         //main ngga bisa println member yg didefinisikan di luar class "void type not allowed here
         //member yg didalam method main g bisa di rewrite
+
+        p1.definisiclass();
 
     }
 }

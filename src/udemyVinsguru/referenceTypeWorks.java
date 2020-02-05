@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class referenceTypeWorks {
 
+    //https://books.trinket.io/thinkjava/chapter8.html
+
     /*** include ***
     array
      string
@@ -11,8 +13,9 @@ public class referenceTypeWorks {
 
     public static void main(String[] args) {
 
-        int[] arr = new int[] {1, 2, 3};
-        String[] nama = new String[] {"pras","budi","putra"};
+        //new int = create object in the memory
+        int[] arr = new int[] {1, 2, 3};  /// refer to an array of integer
+        String[] nama = {"pras","budi","putra"};
 
         System.out.println("before angka::" + Arrays.toString(arr));
         System.out.println("before nama::" + Arrays.toString(nama));
@@ -25,6 +28,14 @@ public class referenceTypeWorks {
         ref.changeString(nama);
         System.out.println("after nama ::" + Arrays.toString(nama));
 
+    }
+
+    public void change(int[] c){
+
+        c = new int[] {5, 7, 9};
+        c[0]++;
+        c[1]++;
+        c[2]++;
     }
 
     public void changeNumeric(int[] a) {
