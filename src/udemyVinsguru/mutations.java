@@ -20,6 +20,8 @@ public class mutations {
         m.currentSale(arr);
 
         m.predictMonth2(arr);
+
+        m.currentSale(arr);
     }
 
     public void currentSale(int[] a){

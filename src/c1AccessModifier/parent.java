@@ -6,7 +6,7 @@ public class parent {
     private static String rencana2;
     protected static String rencana3;
 
-    protected static String wacana="ke ancol";
+    protected static String wacana="protected ke ancol";
 
     public static String getRencana() {
 
@@ -15,6 +15,7 @@ public class parent {
 
     public static void setRencana(String rencana) {
 
+        //cant write as this java: non-static variable this cannot be referenced from a static context
         parent.rencana = rencana;
     }
 
@@ -25,6 +26,7 @@ public class parent {
 
     protected static void setRencana2(String rencana2) {
 
+        //cant write as this java: non-static variable this cannot be referenced from a static context
         parent.rencana2 = rencana2;
     }
 
@@ -35,16 +37,17 @@ public class parent {
 
     private static void setRencana3(String rencana3) {
 
+        //cant write as this java: non-static variable this cannot be referenced from a static context
         parent.rencana3 = rencana3;
     }
 
     public static void memberParent1(){
 
-        setRencana("jalan");
+        setRencana("kursus public");
         System.out.println(getRencana());
-        setRencana2("kulineran");
+        setRencana2("kursus protected");
         System.out.println(getRencana2());
-        setRencana3("kursus");
+        setRencana3("kursus private");
         System.out.println(getRencana3());
     }
 

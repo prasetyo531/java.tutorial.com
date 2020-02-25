@@ -3,18 +3,22 @@ package udemyVinsguru;
 public class staticPolymorphism {
 
     public int getArea(int a){
+
         return a * a;
     }
 
     public double getArea(Double a){
+
         return a * a;
     }
 
     public int getArea(int length, int width){
+
         return length * width;
     }
 
     public double getArea(double length, int width){
+
         return  length * width;
     }
 
