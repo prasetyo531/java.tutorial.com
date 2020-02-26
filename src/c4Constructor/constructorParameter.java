@@ -12,6 +12,7 @@ public class constructorParameter {
 
         programming = programming_baru;
         angka = angka_baru;
+
     }
 
     public static void main(String[] args){

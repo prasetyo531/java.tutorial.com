@@ -6,5 +6,6 @@ public class testInheritance {
 
         employee employ = new employee();
         employ.setName("pras");
+        System.out.println(employ.getName());
     }
 }
