@@ -15,6 +15,7 @@ public class finalKeyword {
     public static void main(String[] args){
 
         //print static data members
+        //tinggi = 12; cant rewrite variable tinggi
         System.out.println(tinggi);
 
         //create instantiate

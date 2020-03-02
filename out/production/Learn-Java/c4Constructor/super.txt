@@ -1,0 +1,7 @@
+http://bahasajava.com/keyword-super-program-java/
+
+keyword super akan mengacu pada superclass. Nah, fungsi dari keyword super itu sendiri adalah:
+
+- Memanggil constructor dari superclass
+- Memanggil method dari superclass
+- Mengakses variabel instance super class
