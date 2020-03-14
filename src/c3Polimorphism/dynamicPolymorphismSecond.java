@@ -6,6 +6,7 @@ public class dynamicPolymorphismSecond extends dynamicPolymorphismFirst {
     public void setIdentity(){
 
         employee employ = new employee();
+
         employ.setName("putra");
         employ.setEmployeeId("210");
         employ.setAge(21);

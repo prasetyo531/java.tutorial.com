@@ -28,5 +28,7 @@ public class nonStaticExample {
 
         //non-static method can access static data members
         n.aksesStaticFromNonStatic();
+
+        n.ukuranGedung();
     }
 }

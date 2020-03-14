@@ -6,6 +6,7 @@ public class dynamicPolymorphismFirst {
 
         person orang = new person();
         employee employ = new employee();
+
         employ.setName("pras");
         employ.setAge(20);
         orang.setGender("laki");

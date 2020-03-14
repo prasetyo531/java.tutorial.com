@@ -2,6 +2,10 @@ package c5Interface;
 
 public class samsung implements handphone {
 
+    /*
+    setelah nulis implements, bakal ada option to implement method
+     */
+
     @Override
     public void os() {
 

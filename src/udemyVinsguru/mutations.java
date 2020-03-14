@@ -39,8 +39,8 @@ public class mutations {
         //this code not touching original array or to avoding mutations
         //this code located on where increased method happened
         a = Arrays.copyOf(a, a.length);
-        a[0]++;
-        a[2]++;
+        a[0]++; //5+1
+        a[2]++; //3+1
 
         System.out.println("prediction next month ::" + (a[0] + a[1] + a[2]));;
     }
@@ -50,9 +50,9 @@ public class mutations {
         //this code not touching original array or to avoding mutations
         //this code located on where increased method happened
         a = Arrays.copyOf(a, a.length);
-        a[0]++;
-        a[1]++;
-        a[2]++;
+        a[0]++; //5+1
+        a[1]++; //4+1
+        a[2]++; //3+1
         System.out.println("prediction next month ::" + (a[0] + a[1] + a[2]));;
     }
 }

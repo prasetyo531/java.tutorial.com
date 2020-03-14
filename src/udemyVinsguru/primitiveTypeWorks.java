@@ -58,7 +58,11 @@ public class primitiveTypeWorks {
         System.out.println("byte::" + bt);
         System.out.println("char::" + ch);
 
-        //main ngga bisa println member yg didefinisikan di luar class "void type not allowed here
+        /*
+        main ngga bisa println member yg didefinisikan di luar class "void type not allowed here
+        System.out.println(definisiclass());
+         */
+
         //member yg didalam method main g bisa di rewrite
 
         p1.definisiclass();

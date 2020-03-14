@@ -7,7 +7,7 @@ public class referenceTypeWorks {
     //https://books.trinket.io/thinkjava/chapter8.html
 
     /*** include ***
-    array
+     array
      string
      */
 
@@ -48,6 +48,7 @@ public class referenceTypeWorks {
 
     public void changeString(String[] b){
 
+        //value cant replaced, imutable behaviour
         b[0].replace("pras", "prasetyo");
         b[2].replace("putra","putranto");
     }

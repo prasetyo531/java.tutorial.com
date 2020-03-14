@@ -1,5 +1,6 @@
 package abstraction;
 
+//abstract pasti public
 public abstract class komponen {
 
     //Method Abstrak
