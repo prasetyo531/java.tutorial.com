@@ -1,2 +1,0 @@
-- abstract class is not designed to be instantiated, but extended
-- designed to be overriden by a subclass
