@@ -31,6 +31,7 @@ public class arrayListStream {
             }
         }
         System.out.println("with logic for"+" "+count);
+        names.stream().filter(s -> s.startsWith("a")).forEach(s->System.out.println("namanya adalah"+" "+s));
     }
 
     public static void arrayList_streamFilter(){
@@ -56,6 +57,7 @@ public class arrayListStream {
         skincare.add("cleanser");
         skincare.add("facewash");
         skincare.add("facepalm");
+        skincare.add("facepalm");
         skincare.add("toner");
 
         /*
@@ -67,6 +69,9 @@ public class arrayListStream {
 
         long d = skincare.stream().filter(s->s.startsWith("f")).count();
         System.out.println(d);
+
+        long e = skincare.stream().filter(s->s.equals("facepalm")).count();
+        System.out.println("object yg sama"+" "+e);
     }
 
     public static void usageForEach(){

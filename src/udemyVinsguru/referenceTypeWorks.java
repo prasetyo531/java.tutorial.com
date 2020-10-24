@@ -11,6 +11,7 @@ public class referenceTypeWorks {
      string
      */
 
+
     public static void main(String[] args) {
 
         //new int = create object in the memory
@@ -22,7 +23,7 @@ public class referenceTypeWorks {
 
         referenceTypeWorks ref = new referenceTypeWorks();
 
-        ref.changeNumeric(arr);
+        ref.increaseNumeric(arr);
         System.out.println("after angka ::" + Arrays.toString(arr));
 
         ref.changeString(nama);
@@ -30,7 +31,7 @@ public class referenceTypeWorks {
 
     }
 
-    public void change(int[] c){
+    public static void change(int[] c){
 
         c = new int[] {5, 7, 9};
         c[0]++;
@@ -38,7 +39,7 @@ public class referenceTypeWorks {
         c[2]++;
     }
 
-    public void changeNumeric(int[] a) {
+    public void increaseNumeric(int[] a) {
 
         a[0]++;
         a[1]++;

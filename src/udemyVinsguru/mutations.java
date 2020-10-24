@@ -22,16 +22,8 @@ public class mutations {
         m.predictMonth2(arr);
 
         m.currentSale(arr);
-    }
 
-    public void currentSale(int[] a){
-
-        System.out.println("current sale this month ::" + (a[0] + a[1] + a[2]));
-    }
-
-    public void totalCurrentSale(int[] a){
-
-        System.out.println("total sale this month ::" + (a[0] + a[1] + a[2]));
+        m.arrayTestSatu(arr);
     }
 
     public void predictNextMonth(int[] a){
@@ -45,6 +37,16 @@ public class mutations {
         System.out.println("prediction next month ::" + (a[0] + a[1] + a[2]));;
     }
 
+    public void currentSale(int[] a){
+
+        System.out.println("current sale this month ::" + (a[0] + a[1] + a[2]));
+    }
+
+    public void totalCurrentSale(int[] a){
+
+        System.out.println("total sale this month ::" + (a[0] + a[1] + a[2]));
+    }
+
     public void predictMonth2(int[] a){
 
         //this code not touching original array or to avoding mutations
@@ -54,5 +56,14 @@ public class mutations {
         a[1]++; //4+1
         a[2]++; //3+1
         System.out.println("prediction next month ::" + (a[0] + a[1] + a[2]));;
+    }
+
+    public void arrayTestSatu(int[] a){
+
+        a = new int[] {5, 7, 10};
+        a[0]++;
+        a[1]++;
+        a[2]++;
+        System.out.println("after angka ::" + Arrays.toString(a));
     }
 }

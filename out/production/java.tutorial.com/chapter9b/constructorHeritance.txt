@@ -1,8 +1,0 @@
-1. superclass construction run first
-2. use super() to call spesific constructor
-3. super() calls must be first
-4. some constructor must be executed
-
--> Mengakses constructor superclass oleh subclass
--> Menunjuk anggota superclass oleh subclass
--> Mengakses method superclass oleh subclass

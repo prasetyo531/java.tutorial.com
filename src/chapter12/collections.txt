@@ -4,16 +4,16 @@ java collection is
 - can be found in java.util package
 
 collection framework
-1. set
+1. list
+can contain duplicate elements, can be accesed by position
+ArrayList<String> names = new ArrayList<String>();
+2. queue
+ordered elements for processing
+Queue buah = new LinkedList();
+3. set
 - collection that dont have duplicate element
 - duplicate element will not stored
 Set buah = new HashSet();
-2. list
-can contain duplicate elements, can be accesed by position
-ArrayList<String> names = new ArrayList<String>();
-3. queue
-ordered elements for processing
-Queue buah = new LinkedList();
 4. map
 unordered unique value pairs, like bank transaction - unique transaction id has pairs value
 Map fruitCalories = new HashMap();

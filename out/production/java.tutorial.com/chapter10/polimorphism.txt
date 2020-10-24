@@ -1,7 +1,0 @@
-Sub class can define their own unique behaviour, share some behaviours of their superclass
-
-polimorphism is where object has a superclass but is an instance of subclass
-
-/*
-    Animal dog = new Dog();  because dog inherits from animal
-**/

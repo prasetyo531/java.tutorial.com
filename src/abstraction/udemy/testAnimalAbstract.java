@@ -11,6 +11,7 @@ public class testAnimalAbstract {
         System.out.println("berikut contoh abstract:");
         harimau.bergerak();
         buaya.bergerak();
+
         //hewan.membelaDiri();
         //hewan.warna();
     }
