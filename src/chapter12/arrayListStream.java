@@ -1,15 +1,17 @@
 package chapter12;
 
-import java.util.ArrayList;
+import java.util.*;
 import java.util.stream.Stream;
 
 public class arrayListStream {
 
     public static void main(String[] args){
         arraylist_for();
-        arrayList_streamFilter();
-        smartUsageStream();
-        usageForEach();
+//        arrayList_streamFilter();
+//        smartUsageStream();
+//        usageForEach();
+//
+//        Linkedlist_for();
     }
 
     public static void arraylist_for(){
@@ -32,11 +34,23 @@ public class arrayListStream {
         }
         System.out.println("with logic for"+" "+count);
         names.stream().filter(s -> s.startsWith("a")).forEach(s->System.out.println("namanya adalah"+" "+s));
+
+        //sorting desc
+        Collections.sort(names, Collections.reverseOrder());
+        System.out.println("desc"+" "+names);
+
+        //sorting asc
+        Collections.sort(names);
+        System.out.println("asc"+" "+names);
+
+        //searching - starts from 0 like array
+        String index = String.valueOf(Collections.binarySearch(names, "carlie"));
+        System.out.println("index locations"+" "+index);
     }
 
     public static void arrayList_streamFilter(){
 
-        //<bisa class/tipe data>
+        //<bisa class/tipe data> as implementation
         ArrayList<String> middlename = new ArrayList<String>();
         middlename.add("chandra");
         middlename.add("destari");
@@ -46,7 +60,6 @@ public class arrayListStream {
 
         long c = middlename.stream().filter(s->s.startsWith("e")).count();
         System.out.println("quantity"+" "+c);
-
 
     }
 
@@ -82,7 +95,22 @@ public class arrayListStream {
         skincare.add("facewash");
         skincare.add("facepalm");
         skincare.add("toner");
+        skincare.remove("toner");
 
         skincare.stream().filter(s->s.startsWith("f")).forEach(s->System.out.println(s));
+    }
+
+    public static void Linkedlist_for(){
+
+        //<bisa class/tipe data>
+        LinkedList<String> sunscreen = new LinkedList<String>();
+        sunscreen.add("cleanser");
+        sunscreen.add("facewash");
+        sunscreen.add("facepalm");
+        sunscreen.add("toner");
+        sunscreen.add("toner");
+
+        System.out.println("Linkedlist_for" + " " + sunscreen.getLast());
+        System.out.println(sunscreen);
     }
 }

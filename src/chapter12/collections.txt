@@ -1,19 +1,28 @@
-java collection is
-- an object that holds references to other object as known data object
-- consist of interfaces, classes and methods to store and manipulate data
+http://informatika.unsyiah.ac.id/~viska/pjl/prak/T4-Collections-Indo/
+
+java framework merupakan bentuk algoritma yang digunakan untuk merepresentasikan dan memanipulasi collections.
+Semua collections frameworks consist of these:
+- Interfaces: possibilty collections dimanipulasi secara independen.
+- Implementations: is a implementasi dari collection interfaces. and its about reusable struktur data
+- Algorithms: method-method to specific operation, like searching (pencarian) dan sorting (pengurutan)
+and can be found :
 - can be found in java.util package
 
-collection framework
-1. list
-can contain duplicate elements, can be accesed by position
-ArrayList<String> names = new ArrayList<String>();
-2. queue
-ordered elements for processing
-Queue buah = new LinkedList();
-3. set
+collection framework interface
+1. Interface list
+consist class ArrayList dan LinkedList.
+-> class ArrayList = store data like array, but ArrayList is flexible
+    can contain duplicate elements, can be accesed by position
+    ArrayList<String> names = new ArrayList<String>();
+-> class LinkedList/queue = allow to implement get, remove dan insert dari awal dan akhir LinkedList
+    ordered elements for processing, process add - remove - element - poll
+    Queue buah = new LinkedList();
+2. Interface set
 - collection that dont have duplicate element
 - duplicate element will not stored
 Set buah = new HashSet();
-4. map
-unordered unique value pairs, like bank transaction - unique transaction id has pairs value
+3. Interface map
+- unordered unique value pairs, like bank transaction - unique transaction id has pairs value
+- collection that dont have duplicate value
+- if there is same value, sorted value using last value
 Map fruitCalories = new HashMap();

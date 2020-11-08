@@ -21,6 +21,8 @@ public class set {
      */
 
     public static void set(){
+
+        //set is interface
         Set buah = new HashSet();
         buah.add("lemon");
         buah.add("apple");

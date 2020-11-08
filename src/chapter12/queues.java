@@ -22,6 +22,7 @@ public class queues {
      */
 
     public static void queue() {
+
         Queue buah = new LinkedList();
         buah.add("lemon");
         buah.add("apple");
@@ -43,7 +44,7 @@ public class queues {
         Iterator<String> iterator = buah.iterator();
         while (iterator.hasNext()) {
             String element = iterator.next();
-            System.out.println(element);
+            System.out.println("iterasi"+element);
         }
     }
 }
