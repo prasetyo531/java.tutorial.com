@@ -16,5 +16,9 @@ public class dynamicPolymorphismFirst {
         System.out.println(employ.getAge());
         System.out.println(orang.getGender());
         System.out.println(employ.getTitle());
+
+        //located on parent class
+        person test = new person();
+        test.who("budi");
     }
 }

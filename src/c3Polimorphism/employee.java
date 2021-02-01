@@ -30,6 +30,4 @@ public class employee extends person {
 
         this.title = title;
     }
-
-
 }

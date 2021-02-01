@@ -43,4 +43,8 @@ public class person {
         this.gender = gender;
     }
 
+    void who(String name){
+        System.out.println("nama saya adalah"+ " "+ name);
+    }
+
 }

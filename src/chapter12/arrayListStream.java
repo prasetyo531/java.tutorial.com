@@ -46,6 +46,7 @@ public class arrayListStream {
         //searching - starts from 0 like array
         String index = String.valueOf(Collections.binarySearch(names, "carlie"));
         System.out.println("index locations"+" "+index);
+
     }
 
     public static void arrayList_streamFilter(){
@@ -98,6 +99,28 @@ public class arrayListStream {
         skincare.remove("toner");
 
         skincare.stream().filter(s->s.startsWith("f")).forEach(s->System.out.println(s));
+    }
+
+    public static void usageForEachCompare(){
+
+        //<bisa class/tipe data>
+        ArrayList<String> skincare = new ArrayList<String>();
+        skincare.add("cleanser");
+        skincare.add("facewash");
+        skincare.add("facepalm");
+        skincare.add("toner");
+        skincare.remove("toner");
+
+        ArrayList<String> makeup = new ArrayList<String>();
+        makeup.add("cleanser");
+        makeup.add("facewash");
+        makeup.add("facepalm");
+        makeup.add("toner");
+        makeup.remove("toner");
+
+        skincare.stream().filter(s->s.startsWith("f")).forEach(s->System.out.println(s));
+
+        //skincare.stream().sorted(Comparator.comparing())
     }
 
     public static void Linkedlist_for(){
