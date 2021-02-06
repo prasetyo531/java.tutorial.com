@@ -3,10 +3,10 @@ package accessModifier;
 public class parent {
 
     public static String rencana;
-    private static String rencana2;
     protected static String rencana3;
+    private static String rencana2;
 
-    protected static String wacana="protected ke ancol";
+    protected static String wacana = "protected ke ancol";
 
     public static String getRencana() {
 
@@ -16,6 +16,7 @@ public class parent {
     public static void setRencana(String rencana) {
 
         //cant write as this java: non-static variable this cannot be referenced from a static context
+        //static method cannot call non static variable
         parent.rencana = rencana;
     }
 
