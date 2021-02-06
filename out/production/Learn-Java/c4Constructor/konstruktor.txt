@@ -3,6 +3,7 @@ https://www.wildantechnoart.net/2017/11/cara-membuat-konstruktor-dan-parameter-p
 
 Constructor ialah sebuah method yang namanya sama persis dengan nama class-nya.
 Constructor sendiri berfungsi untuk memberikan nilai awal pada sebuah class ketika class tersebut dibuat dalam bentuk objek pada class lain.
+Constructor bisa diset access modifier nya
 Constructor bisa memiliki parameter bisa juga tidak. Dalam Constructor, tidak boleh pakai keyword class, void.
 Constructor tidak memiliki type return apapun, termasuk void.
 Constructor dipanggil dengan dijadikan object, menggunakan operator new
