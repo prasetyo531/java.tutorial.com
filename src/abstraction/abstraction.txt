@@ -1,3 +1,13 @@
 - abstract class is not designed to be instantiated, but extended
 - designed to be overriden by a subclass
 - abstract keyword before class keyword
+
+http://bahasajava.com/belajar-java-memahami-abstraction-dengan-mudah/
+
+IS-A relationship
+- Can not create instance of an Abstract class,
+because implementation is not clear, thats why we called abstract
+- Other classes should extend this Abstract class
+- can have or not have abstract method, method wihout curly braces
+- It can have private, protected, public members and methods
+- no @Override
