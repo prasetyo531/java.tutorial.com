@@ -11,3 +11,6 @@ because implementation is not clear, thats why we called abstract
 - can have or not have abstract method, method wihout curly braces
 - It can have private, protected, public members and methods
 - no @Override
+
+Abstract method
+- class turunan must implement abstract method
