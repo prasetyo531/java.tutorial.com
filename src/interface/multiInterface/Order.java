@@ -6,5 +6,6 @@ public class Order {
 
         Type tp = new Audi();
         tp.setPrice(200);
+        tp.getPrice();
     }
 }
