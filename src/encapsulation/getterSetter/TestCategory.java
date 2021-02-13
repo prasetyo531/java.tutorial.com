@@ -8,7 +8,7 @@ public class TestCategory {
         category.setId(5);
         System.out.println(category.getId());
 
-        category.setInfo("private");
+        category.setInfo("private");    
         //prevent below case so getter setter is private
         //category.info=null;
         System.out.println(category.getInfo());
