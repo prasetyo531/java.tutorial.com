@@ -5,6 +5,7 @@ public class Audi implements Type{
     private double price;
     private String color;
     private String machine;
+    private String function;
 
     @Override
     public double getPrice() {
@@ -28,6 +29,10 @@ public class Audi implements Type{
         this.color = color;
     }
 
+    public void sound() {
+        System.out.println("brem brem");
+    }
+
     @Override
     public String getMachine() {
         System.out.println(machine);
@@ -37,5 +42,16 @@ public class Audi implements Type{
     @Override
     public void setMachine(String Machine) {
         this.machine = machine;
+    }
+
+    @Override
+    public String getFunction() {
+        System.out.println(function);
+        return function;
+    }
+
+    @Override
+    public void setFunction(String function) {
+        this.function = function;
     }
 }

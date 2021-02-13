@@ -7,4 +7,11 @@ public interface Car {
 
     String getColor();
     void setColor(String color);
+
+    void sound();
+
+    //default method --> add method only at interface dont make error implementation in subclass
+    default void character() {
+        System.out.println("agresive");
+    }
 }
