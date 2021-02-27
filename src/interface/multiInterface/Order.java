@@ -8,8 +8,7 @@ public class Order {
         tp.setPrice(200);
         tp.getPrice();
 
-        tp.sound();
-
-        tp.character();
+        tp.sound();//di class type
+        tp.character();//di interface car use default method
     }
 }

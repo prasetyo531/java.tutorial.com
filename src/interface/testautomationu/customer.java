@@ -8,5 +8,4 @@ public class customer {
         produk.setPrice(200);
         produk.getPrice();
     }
-
 }

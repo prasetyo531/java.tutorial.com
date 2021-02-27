@@ -1,5 +1,6 @@
 package multiInterface;
 
+//implements interface that inherit other interface
 public class Audi implements Type{
 
     private double price;
@@ -29,10 +30,6 @@ public class Audi implements Type{
         this.color = color;
     }
 
-    public void sound() {
-        System.out.println("brem brem");
-    }
-
     @Override
     public String getMachine() {
         System.out.println(machine);
@@ -53,5 +50,9 @@ public class Audi implements Type{
     @Override
     public void setFunction(String function) {
         this.function = function;
+    }
+
+    public void sound() {
+        System.out.println("brem brem");
     }
 }
