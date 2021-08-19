@@ -30,7 +30,6 @@ public class queues {
         buah.add("orange");
         buah.add("lemon");
 
-
         System.out.println(buah.size()); //5
         System.out.println(buah); //[lemon, apple, banana, orange, lemon]
 
