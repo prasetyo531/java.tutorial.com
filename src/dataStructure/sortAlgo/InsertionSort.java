@@ -1,4 +1,4 @@
-package bubleSort;
+package sortAlgo;
 
 public class InsertionSort {
 

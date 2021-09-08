@@ -1,6 +1,6 @@
-package bubleSort;
+package sortAlgo;
 
-public class SelectionSort {
+public class BubleSort {
 
     public static void main(String[] args) {
 
@@ -9,19 +9,16 @@ public class SelectionSort {
         // - all array on start is unsorted index
         for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
 
-            int largest = 0;
-
-            //find largest by
-            for (int i = 0; i <= lastUnsortedIndex; i++) {
-                //[20>0],[35>20],
-                if (intArray[i] > intArray[largest]) {
-                    largest = i;
+            for (int i = 0; i < lastUnsortedIndex; i++) {
+                if (intArray[i] > intArray[i + 1]) {
+                    swap(intArray, i, i + 1);
                 }
             }
-            swap(intArray, largest, lastUnsortedIndex);
         }
+
         for (int i = 0; i < intArray.length; i++) {
             System.out.println(intArray[i]);
+
         }
     }
 
