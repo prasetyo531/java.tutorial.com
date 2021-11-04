@@ -4,7 +4,7 @@ public class BubleSortString {
 
     public static void main(String[] args) {
 
-        String[] stringArray = {"adi", "aci", "abi", "caca"};
+        String[] stringArray = {"dede", "adi", "aci", "abi", "caca"};
 
         // - all array on start is unsorted index
         for (int lastUnsortedIndex = stringArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
@@ -18,7 +18,6 @@ public class BubleSortString {
 
         for (int i = 0; i < stringArray.length; i++) {
             System.out.println(stringArray[i]);
-
         }
     }
 

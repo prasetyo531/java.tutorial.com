@@ -6,7 +6,7 @@ public class BubleSort {
 
         int[] intArray = {20, 35, -15, 7, 10, 1, -22};
 
-        // - all array on start is unsorted index
+        //3. - all array on start is unsorted index
         for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
 
             for (int i = 0; i < lastUnsortedIndex; i++) {
@@ -16,6 +16,7 @@ public class BubleSort {
             }
         }
 
+        //1. create for print
         for (int i = 0; i < intArray.length; i++) {
             System.out.println(intArray[i]);
 
@@ -23,7 +24,7 @@ public class BubleSort {
     }
 
 
-    //1. create swap method
+    //2. create swap method
     // static because will called on main method
     public static void swap(int[] array, int i, int j) {
 

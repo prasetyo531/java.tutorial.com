@@ -3,6 +3,7 @@ package array;
 public class FindArrayIndex {
 
     public static void main(String[] args) {
+        //array size
         int[] intArray = new int[7];
 
         intArray[0] = 20;
